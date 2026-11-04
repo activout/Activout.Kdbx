@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/MinimalApi/MinimalApi.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Activout.Extensions.Configuration.Kdbx/Activout.Extensions.Configuration.Kdbx.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Activout.Extensions.Configuration.Kdbx.Tests/Activout.Extensions.Configuration.Kdbx.Tests.csproj" />
+  </Folder>
+</Solution>
