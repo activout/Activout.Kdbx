@@ -24,6 +24,7 @@ Derived from [pidamg/keepass-dotnet](https://github.com/pidamg/keepass-dotnet) a
 - Limits from `KdbxLimits` on Argon2 memory, iterations and parallelism, AES-KDF rounds and
   decompressed size. Lengths in the header, blocks and KDF parameters are checked.
 - The Argon2 version comes from the KDF parameters (0x10 or 0x13) instead of always 0x13.
+- The Argon2id KDF UUID is corrected to `9e298b19-56db-4773-b23d-fc3ec6f0a1e6`.
 - XML is read with `DtdProcessing.Prohibit` and no `XmlResolver`, including XML key files.
 - Protected values are decrypted in document order over the whole XML, so the keystream stays in
   step through history entries and inline binaries without parsing them.

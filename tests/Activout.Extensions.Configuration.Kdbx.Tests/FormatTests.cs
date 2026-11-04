@@ -19,6 +19,14 @@ public class FormatTests
     }
 
     [Fact]
+    public void Kdbx4_Argon2id_ChaCha20()
+    {
+        var config = Load("Argon2id-ChaCha20.kdbx", o => o.Password = "password123");
+
+        Assert.Equal(new Dictionary<string, string?> { ["Secret"] = "SomeSecretValue" }, Flatten(config));
+    }
+
+    [Fact]
     public void Kdbx31_AesKdf_ChaCha20()
     {
         var config = Load("SimplePasswordV3_ChaCha20.kdbx", o => o.Password = "password123");
