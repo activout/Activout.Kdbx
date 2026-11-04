@@ -8,6 +8,7 @@ All secrets in these files are made up. The passwords are in the test code.
 | `SimplePasswordV3_ChaCha20.kdbx` | From pidamg/keepass-dotnet @ 7fa3f9a (MIT) | KDBX 3.1, AES-KDF, ChaCha20 | `password123` |
 | `Argon2id-ChaCha20.kdbx` | KeePassXC GUI | KDBX 4.0, Argon2id (2 iterations, 1 MiB, parallelism 4), ChaCha20 | `password123` |
 | `Argon2d-Twofish.kdbx` | KeePassXC GUI | KDBX 4.0, Argon2d (2 iterations, 1 MiB), Twofish | `password123` |
+| `AES-KDF.kdbx` | KeePassXC GUI | KDBX 4.0, AES-KDF (2 rounds), AES-256 | `password123` |
 | `mapping.kdbx` | `keepassxc-cli import` of `mapping.xml` | KDBX 3.1, AES-KDF, AES-256, Salsa20 | `mapping-pw` |
 | `mapping-v2.kdbx` | `mapping.kdbx` with the `TopLevel` password set to `changed-secret` | same | `mapping-pw` |
 | `duplicates.kdbx` | `keepassxc-cli import` of `duplicates.xml` | same | `duplicates-pw` |
@@ -21,5 +22,5 @@ with KeePassXC 2.8.0:
 keepassxc-cli import -p -t 100 mapping.xml mapping.kdbx
 ```
 
-keepassxc-cli cannot choose the cipher, KDF or format version, so KDBX 4.1, AES-KDF on KDBX 4 and
+keepassxc-cli cannot choose the cipher, KDF or format version, so KDBX 4.1 and
 uncompressed files made in the KeePassXC or KeePass 2.x GUI are still to be added.
