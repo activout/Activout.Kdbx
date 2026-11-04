@@ -1,0 +1,92 @@
+#nullable enable
+Activout.Extensions.Configuration.Kdbx.KdbxAuthenticationException
+Activout.Extensions.Configuration.Kdbx.KdbxAuthenticationException.KdbxAuthenticationException() -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.AllowDuplicateKeys.get -> bool
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.AllowDuplicateKeys.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.EntryFilter.get -> System.Func<Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo!, bool>?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.EntryFilter.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.ExcludeExpired.get -> bool
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.ExcludeExpired.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Fields.get -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Fields.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.IncludeRecycleBin.get -> bool
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.IncludeRecycleBin.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.IncludeRootGroupName.get -> bool
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.IncludeRootGroupName.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.KdbxConfigurationOptions() -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.KeyFilePath.get -> string?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.KeyFilePath.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.KeyPrefix.get -> string?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.KeyPrefix.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Limits.get -> Activout.Extensions.Configuration.Kdbx.KdbxLimits!
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Limits.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Password.get -> string?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.Password.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.PasswordProvider.get -> System.Func<string?>?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.PasswordProvider.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.RequiredTag.get -> string?
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions.RequiredTag.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationProvider
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationProvider.KdbxConfigurationProvider(Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource! source) -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource.KdbxConfigurationSource() -> void
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource.Options.get -> Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions!
+Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource.Options.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.<Clone>$() -> Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Deconstruct(out System.Collections.Generic.IReadOnlyList<string!>! GroupPath, out string! Title, out string! UserName, out string! Url, out System.Collections.Generic.IReadOnlyList<string!>! Tags, out System.DateTime? ExpiryTime) -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Equals(Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo? other) -> bool
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.ExpiryTime.get -> System.DateTime?
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.ExpiryTime.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.GroupPath.get -> System.Collections.Generic.IReadOnlyList<string!>!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.GroupPath.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.KdbxEntryInfo(System.Collections.Generic.IReadOnlyList<string!>! GroupPath, string! Title, string! UserName, string! Url, System.Collections.Generic.IReadOnlyList<string!>! Tags, System.DateTime? ExpiryTime) -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Tags.get -> System.Collections.Generic.IReadOnlyList<string!>!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Tags.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Title.get -> string!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Title.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Url.get -> string!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Url.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.UserName.get -> string!
+Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.UserName.init -> void
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.CustomFields = 16 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Default = Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Password | Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.UserName | Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Url | Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.CustomFields -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.None = 0 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Notes = 8 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Password = 1 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.Url = 4 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping.UserName = 2 -> Activout.Extensions.Configuration.Kdbx.KdbxFieldMapping
+Activout.Extensions.Configuration.Kdbx.KdbxLimits
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.KdbxLimits() -> void
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxAesKdfRounds.get -> ulong
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxAesKdfRounds.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2Iterations.get -> ulong
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2Iterations.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2MemoryBytes.get -> long
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2MemoryBytes.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2Parallelism.get -> uint
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxArgon2Parallelism.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxDecompressedBytes.get -> long
+Activout.Extensions.Configuration.Kdbx.KdbxLimits.MaxDecompressedBytes.set -> void
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationProvider
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationProvider.KdbxStreamConfigurationProvider(Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource! source) -> void
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource.KdbxStreamConfigurationSource() -> void
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource.Options.get -> Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions!
+Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource.Options.set -> void
+Microsoft.Extensions.Configuration.KdbxConfigurationExtensions
+override Activout.Extensions.Configuration.Kdbx.KdbxConfigurationProvider.Load(System.IO.Stream! stream) -> void
+override Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder! builder) -> Microsoft.Extensions.Configuration.IConfigurationProvider!
+override Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.Equals(object? obj) -> bool
+override Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.GetHashCode() -> int
+override Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.ToString() -> string!
+override Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationProvider.Load(System.IO.Stream! stream) -> void
+override Activout.Extensions.Configuration.Kdbx.KdbxStreamConfigurationSource.Build(Microsoft.Extensions.Configuration.IConfigurationBuilder! builder) -> Microsoft.Extensions.Configuration.IConfigurationProvider!
+static Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.operator !=(Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo? left, Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo? right) -> bool
+static Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo.operator ==(Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo? left, Activout.Extensions.Configuration.Kdbx.KdbxEntryInfo? right) -> bool
+static Microsoft.Extensions.Configuration.KdbxConfigurationExtensions.AddKdbxFile(this Microsoft.Extensions.Configuration.IConfigurationBuilder! builder, string! path, bool optional, bool reloadOnChange, System.Action<Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions!>! configure) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
+static Microsoft.Extensions.Configuration.KdbxConfigurationExtensions.AddKdbxFile(this Microsoft.Extensions.Configuration.IConfigurationBuilder! builder, string! path, System.Action<Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions!>! configure) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
+static Microsoft.Extensions.Configuration.KdbxConfigurationExtensions.AddKdbxFile(this Microsoft.Extensions.Configuration.IConfigurationBuilder! builder, System.Action<Activout.Extensions.Configuration.Kdbx.KdbxConfigurationSource!>! configureSource) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
+static Microsoft.Extensions.Configuration.KdbxConfigurationExtensions.AddKdbxStream(this Microsoft.Extensions.Configuration.IConfigurationBuilder! builder, System.IO.Stream! stream, System.Action<Activout.Extensions.Configuration.Kdbx.KdbxConfigurationOptions!>! configure) -> Microsoft.Extensions.Configuration.IConfigurationBuilder!
