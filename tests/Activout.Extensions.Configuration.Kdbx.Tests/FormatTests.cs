@@ -35,7 +35,7 @@ public class FormatTests
     }
 
     [Fact]
-    public void Kdbx4_AesKdf_Aes256()
+    public void Kdbx41_AesKdf_Aes256_Uncompressed()
     {
         var config = Load("AES-KDF.kdbx", o => o.Password = "password123");
 
